@@ -1,0 +1,296 @@
+*{
+	box-sizing: border-box;
+}
+html { 
+    display: block;
+    background-color: #F4F2E8;
+}
+
+html:focus { 
+    outline: none;
+}
+
+.body {
+	font-family: "Times New Roman", Georgia, Serif;
+	color: #262D5E;
+	max-width: 100%;
+	width: 100%;
+	margin:auto;
+}
+.continerH{
+	height: 100px;
+	background-color: #E1DBD0;
+
+}
+.logo {
+	float: left;
+}
+.loginF{
+	float: right;
+	margin-top: 10px;
+	padding: 10px;
+}
+.loginF ul li {
+	display: inline-block;
+	float: right;
+
+}
+.loginF ul li:hover {
+	background-color: #F4F2E8;
+}
+.loginF ul li a{
+	text-decoration: none;
+	color: #262D5E;
+	font-size: 18px;
+}
+.nav{
+	background-color: #9FB672;
+	line-height: 30px;
+
+}
+.nav ul li {
+	display: inline-block;
+	padding: 5px 20px;
+
+}
+.nav ul li:hover {
+	background-color: #F4F2E8;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: #262D5E;
+	font-size: 18px;
+}
+.sidebar{
+	width: 15%;
+	height: 650px;
+	background-color: #CEC6BA;
+	float: left;
+	text-align: center;
+
+}
+.sidebar ul{
+	list-style: none;
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.sidebar ul li {
+	display: block;
+
+}
+.sidebar ul li:hover {
+	background-color: #F4F2E8;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	color: #262D5E;
+}
+.main {
+	float: right;
+	background-color: #E1DBD0;
+	width: 85%;
+	height: 650px;
+	color: #262D5E;
+	text-align: center;
+	display: block;
+	overflow: auto;
+}
+.mbox{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.cards{
+	width: 210px;
+	height: 310px;
+	padding: 2px;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	float: right;
+	background-color: #F4F2E8;
+	border-radius: 4px;
+	display: inline-grid;
+
+}
+.cards input{
+	width: 200px;
+	padding: 1px;
+	background-color: #E1DBD0;
+	border-style: none;
+	text-align: center;
+	color: #262D5E;
+	clear: both;
+
+}
+.cards h5{
+	width: 200px;
+	padding: 1px;
+	background-color: #E1DBD0;
+	border-style: none;
+	text-align: center;
+	color: #262D5E;
+
+}
+.cards img{
+	width: 75%;
+	height: 125px;
+	margin: auto;
+
+}
+
+.cards textarea{
+	max-width: 200px;
+	max-height: 50px;
+	padding: 1px;
+	background-color: #E1DBD0;
+	border-style: none;
+}
+.footer {
+	height: 80px;
+	background-color: #262D5E;
+	text-align: center;
+	clear: both;
+}
+
+.footer h4{
+	float: left;
+	margin-left: 10px;
+	color: #E1DBD0;
+}
+.footer p{
+	float: right;
+	margin-right: 10px;
+margin-top: 42px;
+font-size: 12px;
+font-weight: bold;
+color: #E1DBD0;
+}
+.product-com{
+	width: 300px;
+	height: 510px;
+	padding: 2px;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	float: left;
+	background-color: #E1DBD0;
+	border-radius: 4px;
+
+
+
+}
+.product-com input{
+	width: 200px;
+	padding: 1px;
+	background-color: #E1DBD0;
+	border-style: none;
+	text-align: center;
+	color: #262D5E;
+	float: left;
+	margin-top:2px;
+	position: relative;
+	clear: both;
+
+}
+.product-com h5{
+	width: 200px;
+	padding: 1px;
+	background-color: #E1DBD0;
+	border-style: none;
+	text-align: center;
+	color: #262D5E;
+	float: left;
+	margin-top:2px;
+	position: relative;
+	clear: both;
+
+}
+.product-com img{
+	width: 200px;
+	height: 125px;
+	margin: auto;
+	float: left;
+
+}
+
+.product-com textarea{
+	max-width: 150px;
+	max-height: 150px;
+	padding: 1px;
+	background-color: #E1DBD0;
+	border-style: none;
+	float: left;
+	margin-top:2px;
+	position: relative;
+
+#add{
+	color: #262D5E;
+	font-size: 16px;
+	margin-top: 200px;
+}
+#add:hover{
+	background-color: #ffffff;
+	font-size: 16px;	
+	cursor: pointer;
+	margin-top: 200px;
+}
+.lg {
+	margin-top: 100px;
+	text-align: center;
+	color: #222;
+	font-size: 26px;
+/*	text-shadow: 3px 2px #9E9E9E;*/
+	font-weight: bold;
+	font-variant: small-caps;
+	text-decoration: underline;
+	border: 1px solid #000000;
+
+	    background-color: red;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+@media(max-width: 768px){
+
+	.continerH, .logo, .loginF{
+		float: none;
+		height: 100%;
+		padding-top: 5px;
+		text-align: center;
+	}
+	.loginF form{
+		display: block;
+		
+	}
+	.loginF form button, input{
+		display: block;
+		width: 100%;
+		padding-bottom: 5px;
+	}
+	.footer{
+		float: none;
+		height: 150px;
+		text-align: center;
+		clear: both;
+		margin:auto;
+	}
+	.footer h4{
+		margin-left: 90px;
+	}
+	.footer p{
+		margin-right: 60px;
+	}
+}

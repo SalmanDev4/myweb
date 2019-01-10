@@ -1,0 +1,165 @@
+* {
+	box-sizing: border-box;
+}
+/*.mypro {
+	margin-bottom: 20px;
+}*/
+.product-box{
+	width: 210px;
+	height: 310px;
+	padding: 2px;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	float: left;
+	background-color: #757575;
+	border-radius: 4px;
+	display: inline-grid;
+
+}
+.product-box input{
+	width: 200px;
+	padding: 1px;
+	background-color: #757575;
+	border-style: none;
+	text-align: center;
+	color: #fff;
+
+}
+.product-box h5{
+	width: 200px;
+	padding: 1px;
+	background-color: #757575;
+	border-style: none;
+	text-align: center;
+	color: #fff;
+
+}
+.product-box img{
+	width: 200px;
+	height: 125px;
+	margin: auto;
+
+}
+
+.product-box textarea{
+	max-width: 150px;
+	max-height: 50px;
+	padding: 1px;
+	background-color: #757575;
+	border-style: none;
+
+}
+#open{
+	color: #222222;
+	font-size: 16px;
+
+}
+#open:hover{
+	background-color: #ffffff;
+	font-size: 16px;	
+	cursor: pointer;
+
+}
+
+.pro ul {
+	padding: 5px;	
+	float: left;
+	margin-top: 4px;
+	margin-right: 6px;
+	height: 700px;
+	background-color: #BDBDBD;
+	width: 10%;
+	
+}
+.pro ul li  {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+	
+}
+.pro ul li a {
+	color: #000;
+	font-family: Arial;
+	font-size: 16px;
+	
+}
+
+.product-com{
+	width: 300px;
+	height: 510px;
+	padding: 2px;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	float: left;
+	background-color: #F4F2E8;
+	border-radius: 4px;
+
+
+
+}
+.product-com input{
+	width: 200px;
+	padding: 1px;
+	background-color: #F4F2E8;
+	border-style: none;
+	text-align: center;
+	color: #fff;
+	float: left;
+	margin-top:2px;
+	position: relative;
+	clear: both;
+
+}
+.product-com h5{
+	width: 200px;
+	padding: 1px;
+	background-color: #F4F2E8;
+	border-style: none;
+	text-align: center;
+	color: #fff;
+	float: left;
+	margin-top:2px;
+	position: relative;
+	clear: both;
+
+}
+.product-com img{
+	width: 200px;
+	height: 125px;
+	margin: auto;
+	float: left;
+
+}
+
+.product-com textarea{
+	max-width: 150px;
+	max-height: 150px;
+	padding: 1px;
+	background-color: #F4F2E8;
+	border-style: none;
+	float: left;
+	margin-top:2px;
+	position: relative;
+
+}
+.totalForm{
+	width: 300px;
+	height: 510px;
+	padding: 2px;
+	margin-bottom: 10px;
+	margin-left: 4px;
+	float: right;
+	background-color: #E1DBD0;
+	border-radius: 4px;
+}
+#add{
+	color: #222222;
+	font-size: 16px;
+	margin-top: 200px;
+}
+#add:hover{
+	background-color: #ffffff;
+	font-size: 16px;	
+	cursor: pointer;
+	margin-top: 200px;
+}

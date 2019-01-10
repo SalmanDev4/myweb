@@ -1,0 +1,110 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-align: center;
+	margin-left: 10px;
+	color: #222;
+
+}
+section{
+
+
+}
+
+section form{
+	max-width: 400px;
+	border: 10px #222;
+	background-color: #D3D3D3;
+	border-style: solid;
+	margin: auto;
+	
+
+}
+#signup{
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 130px;
+	margin-bottom: 10px;
+	color: #222222;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+section form input[type=text]{
+	width: 365px;
+	margin-left: 15px;
+	margin-top: 10px;
+	border-style: solid;
+	border-color: #c1c1c1;
+	padding: 2px;
+	
+
+}
+section form input[type=file]{
+	width: 280px;
+	margin-left: 15px;
+	margin-top: 10px;
+	border-style: solid;
+	border-color: #c1c1c1;
+	padding: 2px;
+	
+
+}
+section form input[type=password]{
+	width: 365px;
+	margin-left: 15px;
+	margin-top: 10px;
+	border-style: solid;
+	border-color: #c1c1c1;
+	padding: 2px;
+
+}
+
+section form textarea{
+	max-width: 365px;
+	min-height: 200px;
+	max-height: 200px;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 16px;
+	padding: 2px;
+
+}
+
+#add{
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 130px;
+	margin-bottom: 10px;
+	color: #222222;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+#upload{
+	color: #222222;
+	font-size: 16px;
+	cursor: pointer;
+
+}
+
+
+
+table {
+	margin: auto;
+	margin-top: 0px;
+}
+thead {
+	background-color: #c1c1c1;
+	
+
+}
+#mytable {
+	text-align: center;
+}
+
